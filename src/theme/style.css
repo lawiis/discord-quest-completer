@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-discord-blurple: #5865F2;
+  --color-discord-blurple-hover: #4752c4;
+  --color-discord-green: #23a55a;
+  --color-discord-yellow: #f0b232;
+  --color-discord-red: #f23f43;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 140, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 140, 0.45);
+}
